@@ -21,8 +21,4 @@ public class VisualNovelNodeSO : ScriptableObject
 
     [Header("Personaje 2")]
     public bool activateCharacterTwo;
-
-    [Header("Background")]
-    [Tooltip("Puedes usar de 1 a 3 imágenes para componer el fondo.")]
-    public Sprite[] backgroundSprites = new Sprite[3];
 }

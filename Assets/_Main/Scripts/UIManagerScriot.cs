@@ -7,6 +7,8 @@ public class UIManagerScriot : MonoBehaviour
     private GameObject _paneldialogo;
     [SerializeField]
     private TMP_Text _textodialogo;
+    [SerializeField]
+    private VisualNovelNodeSO _currentNode;
 
     [Header("Buttons")]
     [SerializeField]
@@ -21,9 +23,15 @@ public class UIManagerScriot : MonoBehaviour
     private TMP_Text[] _textbutton;
     private void Start()
     {
-      _textodialogo.text = "Estás caminando tranquilamente por la universidad, pensando en que harás en la tarde en vez de los trabajos que son para la otra semana, cuando de repente,te encuentras con tu crush,  ¿Qué vas a hacer?";
-        _textbutton[0].text = "Correr";
-        _textbutton[1].text = "Besarla";
-        _textbutton[2].text = "Patearla";
+        //Cantidad botones
+        _boton1.gameObject.SetActive(_currentNode.buttonAmount > 0);
+        _boton2.gameObject.SetActive(_currentNode.buttonAmount > 1);
+        _boton3.gameObject.SetActive(_currentNode.buttonAmount > 2);
+
+        //texto dialogo y botones
+        _textodialogo.text = _currentNode.sceneText; 
+        _textbutton[0].text = _currentNode.buttonNames[0];
+        _textbutton[1].text = _currentNode.buttonNames[1];
+        _textbutton[2].text = _currentNode.buttonNames[2];
     }
 }

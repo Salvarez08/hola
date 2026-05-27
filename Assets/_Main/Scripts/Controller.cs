@@ -50,7 +50,6 @@ public class Controller : MonoBehaviour
     private Sprite _whiteSprite;
 
 
-
     [Header("array sprite renderer")]
 
     [SerializeField]
@@ -60,9 +59,6 @@ public class Controller : MonoBehaviour
 
     [SerializeField]
     private Sprite[] _sprite;
-
-
-
 
     [Header("Array sprite")]
 
@@ -84,13 +80,6 @@ public class Controller : MonoBehaviour
 
     [SerializeField]
     private Sprite[] _irisSprites;
-
-    private void Start()
-    {
-
-
-    }
-
 
 
     private void Update()

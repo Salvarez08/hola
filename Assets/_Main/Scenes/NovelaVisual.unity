@@ -1231,7 +1231,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604593253}
-  - component: {fileID: 604593252}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1239,20 +1238,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &604593252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604593251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b775abb8b56f2242a75d91ce375f4ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Switch
-  entero: 0
-  textoresultado: {fileID: 153163488}
 --- !u!4 &604593253
 Transform:
   m_ObjectHideFlags: 0
@@ -1456,7 +1441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106852724674725164, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_text
-      value: Besarla
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2591695199105307738, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_Name
@@ -1500,7 +1485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3363243755598194275, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_text
-      value: Correr
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3363243755598194275, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1545,7 +1530,7 @@ PrefabInstance:
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 604593252}
+      objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1674,7 +1659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8184286360638409306, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_text
-      value: Patearla
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8184286360638409306, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1691,7 +1676,7 @@ PrefabInstance:
     - target: {fileID: 8526096190361873024, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 604593252}
+      objectReference: {fileID: 0}
     - target: {fileID: 8526096190361873024, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1727,7 +1712,7 @@ PrefabInstance:
     - target: {fileID: 8658314305186151719, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 604593252}
+      objectReference: {fileID: 0}
     - target: {fileID: 8658314305186151719, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
