@@ -2,7 +2,7 @@
 - Project name: hola
 - Unity version: Unity 6000.3.11f1
 - Active game object:
-  - Name: UI Manager
+  - Name: Button (2)
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

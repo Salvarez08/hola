@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 752e1839106e6f54c9d2e09ee01cf297, type: 3}
-  m_Name: Z1_Inicio
+  m_Name: 2_Decision
   m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
-  sceneText: probando chavales probando
-  buttonAmount: 1
+  sceneText: hola amigos de youtube
+  buttonAmount: 3
   buttonNames:
-  - Siguiente
-  - 
-  - 
+  - Correr
+  - Besarla
+  - Patearla
   activateCharacterOne: 0
   activateCharacterTwo: 0

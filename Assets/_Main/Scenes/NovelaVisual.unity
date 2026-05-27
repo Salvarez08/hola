@@ -1525,7 +1525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1537,7 +1537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeSO
+      value: AdvanceToNextSO
       objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1550,10 +1550,10 @@ PrefabInstance:
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 230a8ac5aa06c3b40b5e956923542f8d, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6064750602692649605, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: VisualNovelNodeSO, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6193946700859128455, guid: 4b52e91baae5b744c8084898faf88ad0, type: 3}
       propertyPath: m_text
@@ -2929,10 +2929,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7ea7ad3cd7cf74080d5fafe2609fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManagerScriot
-  currentData: {fileID: 0}
+  dataSequence:
+  - {fileID: 11400000, guid: abb03c5b3bca5c34886255a4e41c3626, type: 2}
+  - {fileID: 11400000, guid: 230a8ac5aa06c3b40b5e956923542f8d, type: 2}
+  - {fileID: 11400000, guid: 0a9da8def0f96984286af03b3defb3c5, type: 2}
+  _currentNode: {fileID: 11400000, guid: abb03c5b3bca5c34886255a4e41c3626, type: 2}
   _paneldialogo: {fileID: 1036624935}
   _textodialogo: {fileID: 153163488}
-  _currentNode: {fileID: 11400000, guid: abb03c5b3bca5c34886255a4e41c3626, type: 2}
   _boton1: {fileID: 195429053}
   _boton2: {fileID: 1478556976}
   _boton3: {fileID: 1360087689}

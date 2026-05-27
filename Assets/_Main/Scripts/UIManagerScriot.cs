@@ -4,22 +4,20 @@ using UnityEngine.UI;
 public class UIManagerScriot : MonoBehaviour
 {
 
+    // Drag your ScriptableObjects here in the exact order you want them to appear
+    [SerializeField] private VisualNovelNodeSO[] dataSequence;
 
-    // Call this method from your Button's OnClick event
-    public void ChangeSO(VisualNovelNodeSO newData)
-    {
-        _currentNode = newData;
-        Debug.Log("Swapped to: " + _currentNode.name);
+    private int currentIndex = 0;
 
-        // Update your UI or game logic here to reflect the new data
-    }
+    // Track the active asset
+    public VisualNovelNodeSO _currentNode;   
+
 
     [SerializeField] 
     private GameObject _paneldialogo;
     [SerializeField]
     private TMP_Text _textodialogo;
-    [SerializeField]
-    private VisualNovelNodeSO _currentNode;
+    
 
     [Header("Buttons")]
     [SerializeField]
@@ -32,8 +30,28 @@ public class UIManagerScriot : MonoBehaviour
     [Header("Buttons")]
     [SerializeField]
     private TMP_Text[] _textbutton;
+
+    public void AdvanceToNextSO()
+    {
+        if (dataSequence.Length == 0) return;
+
+        // Move to the next index, resetting to 0 if we hit the end
+        currentIndex = (currentIndex + 1) % dataSequence.Length;
+
+        _currentNode = dataSequence[currentIndex];
+        
+
+        // Trigger any UI or game updates here
+    }
     private void Start()
     {
+
+        // Set the initial item if the array is populated
+        if (dataSequence.Length > 0)
+        {
+            _currentNode = dataSequence[0];
+        }
+
         //Cantidad botones
         _boton1.gameObject.SetActive(_currentNode.buttonAmount > 0);
         _boton2.gameObject.SetActive(_currentNode.buttonAmount > 1);
