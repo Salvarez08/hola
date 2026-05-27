@@ -21,4 +21,10 @@ public class VisualNovelNodeSO : ScriptableObject
 
     [Header("Personaje 2")]
     public bool activateCharacterTwo;
+
+    public string nodeName;
+    [TextArea] public string descriptionText;
+
+    // Array to hold the next possible ScriptableObjects (up to 3 for your branching choices)
+    public VisualNovelNodeSO[] nextChoices;
 }
