@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 752e1839106e6f54c9d2e09ee01cf297, type: 3}
   m_Name: A2_Correr
   m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
-  sceneText: please work
+  sceneText: corre corre corazon
   buttonAmount: 1
   buttonNames:
   - Siguiente
   - 
   - 
+  - 
   activateCharacterOne: 0
   activateCharacterTwo: 0
+  nodeName: 
+  descriptionText: 
+  nextChoices: []

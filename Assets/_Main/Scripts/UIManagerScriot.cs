@@ -17,15 +17,19 @@ public class UIManagerScriot : MonoBehaviour
     private GameObject _paneldialogo;
     [SerializeField]
     private TMP_Text _textodialogo;
-    
+
 
     [Header("Buttons")]
+    [SerializeField]
+    private Button _next;
     [SerializeField]
     private Button _boton1;
     [SerializeField]
     private Button _boton2;
     [SerializeField]
     private Button _boton3;
+    
+   
 
     [Header("Buttons")]
     [SerializeField]
@@ -53,27 +57,35 @@ public class UIManagerScriot : MonoBehaviour
         }
 
         //Cantidad botones
-        _boton1.gameObject.SetActive(_currentNode.buttonAmount > 0);
-        _boton2.gameObject.SetActive(_currentNode.buttonAmount > 1);
-        _boton3.gameObject.SetActive(_currentNode.buttonAmount > 2);
+        _next.gameObject.SetActive(_currentNode.buttonAmount > 0);
+        _boton1.gameObject.SetActive(_currentNode.buttonAmount > 1);
+        _boton2.gameObject.SetActive(_currentNode.buttonAmount > 2);
+        _boton3.gameObject.SetActive(_currentNode.buttonAmount > 3);
+       
 
         //texto dialogo y botones
         _textodialogo.text = _currentNode.sceneText; 
         _textbutton[0].text = _currentNode.buttonNames[0];
         _textbutton[1].text = _currentNode.buttonNames[1];
         _textbutton[2].text = _currentNode.buttonNames[2];
+        _textbutton[3].text = _currentNode.buttonNames[3];
+        
+      
     }
     private void Update()
     {
         //Cantidad botones
-        _boton1.gameObject.SetActive(_currentNode.buttonAmount > 0);
-        _boton2.gameObject.SetActive(_currentNode.buttonAmount > 1);
-        _boton3.gameObject.SetActive(_currentNode.buttonAmount > 2);
+        _next.gameObject.SetActive(_currentNode.buttonAmount > 0);
+        _boton1.gameObject.SetActive(_currentNode.buttonAmount > 1);
+        _boton2.gameObject.SetActive(_currentNode.buttonAmount > 2);
+        _boton3.gameObject.SetActive(_currentNode.buttonAmount > 3);
+
 
         //texto dialogo y botones
         _textodialogo.text = _currentNode.sceneText;
         _textbutton[0].text = _currentNode.buttonNames[0];
         _textbutton[1].text = _currentNode.buttonNames[1];
         _textbutton[2].text = _currentNode.buttonNames[2];
+        _textbutton[3].text = _currentNode.buttonNames[3];
     }
 }

@@ -11,10 +11,10 @@ public class VisualNovelNodeSO : ScriptableObject
     public string sceneText;
 
     [Header("Botones")]
-    [Range(0, 3)]
+    [Range(0, 4)]
     public int buttonAmount;
 
-    public string[] buttonNames = new string[3];
+    public string[] buttonNames = new string[4];
 
     [Header("Personaje 1")]
     public bool activateCharacterOne;

@@ -18,5 +18,9 @@ MonoBehaviour:
   - Siguiente
   - 
   - 
+  - 
   activateCharacterOne: 0
   activateCharacterTwo: 0
+  nodeName: 
+  descriptionText: 
+  nextChoices: []

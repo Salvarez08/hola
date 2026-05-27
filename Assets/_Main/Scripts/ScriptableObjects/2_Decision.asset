@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 2_Decision
   m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
   sceneText: hola amigos de youtube
-  buttonAmount: 3
+  buttonAmount: 4
   buttonNames:
   - Correr
   - Besarla
   - Patearla
+  - Patearla
   activateCharacterOne: 0
   activateCharacterTwo: 0
+  nodeName: 
+  descriptionText: 
+  nextChoices: []
