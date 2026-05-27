@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 752e1839106e6f54c9d2e09ee01cf297, type: 3}
-  m_Name: Inicio
+  m_Name: Z1_Inicio
   m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
   sceneText: probando chavales probando
   buttonAmount: 1
@@ -18,5 +18,5 @@ MonoBehaviour:
   - Siguiente
   - 
   - 
-  activateCharacterOne: 1
-  activateCharacterTwo: 1
+  activateCharacterOne: 0
+  activateCharacterTwo: 0

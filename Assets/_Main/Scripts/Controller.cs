@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+    [SerializeField]
+    private VisualNovelNodeSO _currentNode;
 
     //index 
 
@@ -84,6 +86,8 @@ public class Controller : MonoBehaviour
 
     private void Update()
     {
+     
+
         _sprite_rendererds[8].sprite = _irisSprites[_irisRendererIndex];
 
 
