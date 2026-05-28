@@ -159,15 +159,7 @@ public class GameManager : MonoBehaviour
         if (_currentNode.activateCharacterOne)
         {
             _characterOneController.mainSpriteIndex = _currentNode.characterOneMainSpriteIndex;
-            _characterOneController.hairSpriteIndex = _currentNode.characterOneHairSpriteIndex;
-            _characterOneController.whiteSpriteIndex = _currentNode.characterOneWhiteSpriteIndex;
-            _characterOneController.tearSpriteIndex = _currentNode.characterOneTearSpriteIndex;
-            _characterOneController.mouthSpriteIndex = _currentNode.characterOneMouthSpriteIndex;
-            _characterOneController.graphicSpriteIndex = _currentNode.characterOneGraphicSpriteIndex;
-            _characterOneController.eyelibsSpriteIndex = _currentNode.characterOneEyelibsSpriteIndex;
-            _characterOneController.pupilSpriteIndex = _currentNode.characterOnePupilSpriteIndex;
-            _characterOneController.eyebrowsSpriteIndex = _currentNode.characterOneEyebrowsSpriteIndex;
-            _characterOneController.cheekSpriteIndex = _currentNode.characterOneCheekSpriteIndex;
+           
         }
 
         _characterTwoGameObject.SetActive(_currentNode.activateCharacterTwo);
@@ -175,15 +167,7 @@ public class GameManager : MonoBehaviour
         if (_currentNode.activateCharacterTwo)
         {
             _characterTwoController.mainSpriteIndex = _currentNode.characterTwoMainSpriteIndex;
-            _characterTwoController.hairSpriteIndex = _currentNode.characterTwoHairSpriteIndex;
-            _characterTwoController.whiteSpriteIndex = _currentNode.characterTwoWhiteSpriteIndex;
-            _characterTwoController.tearSpriteIndex = _currentNode.characterTwoTearSpriteIndex;
-            _characterTwoController.mouthSpriteIndex = _currentNode.characterTwoMouthSpriteIndex;
-            _characterTwoController.graphicSpriteIndex = _currentNode.characterTwoGraphicSpriteIndex;
-            _characterTwoController.eyelibsSpriteIndex = _currentNode.characterTwoEyelibsSpriteIndex;
-            _characterTwoController.pupilSpriteIndex = _currentNode.characterTwoPupilSpriteIndex;
-            _characterTwoController.eyebrowsSpriteIndex = _currentNode.characterTwoEyebrowsSpriteIndex;
-            _characterTwoController.cheekSpriteIndex = _currentNode.characterTwoCheekSpriteIndex;
+            
         }
         _backgroundSpriteGameObject.SetActive(_currentNode.changeBackground);
 

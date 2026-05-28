@@ -27,26 +27,10 @@ public class VisualNovelNodeSO : ScriptableObject
     [Header("Personaje 1")]
     public bool activateCharacterOne;
     public int characterOneMainSpriteIndex;
-    public int characterOneHairSpriteIndex;
-    public int characterOneWhiteSpriteIndex;
-    public int characterOneTearSpriteIndex;
-    public int characterOneMouthSpriteIndex;
-    public int characterOneGraphicSpriteIndex;
-    public int characterOneEyelibsSpriteIndex;
-    public int characterOnePupilSpriteIndex;
-    public int characterOneEyebrowsSpriteIndex;
-    public int characterOneCheekSpriteIndex;
+    
 
     [Header("Personaje 2")]
     public bool activateCharacterTwo;
     public int characterTwoMainSpriteIndex;
-    public int characterTwoHairSpriteIndex;
-    public int characterTwoWhiteSpriteIndex;
-    public int characterTwoTearSpriteIndex;
-    public int characterTwoMouthSpriteIndex;
-    public int characterTwoGraphicSpriteIndex;
-    public int characterTwoEyelibsSpriteIndex;
-    public int characterTwoPupilSpriteIndex;
-    public int characterTwoEyebrowsSpriteIndex;
-    public int characterTwoCheekSpriteIndex;
+   
 }

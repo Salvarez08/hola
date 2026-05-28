@@ -28,23 +28,5 @@ MonoBehaviour:
   backgroundSpriteIndex: 3
   activateCharacterOne: 0
   characterOneMainSpriteIndex: 0
-  characterOneHairSpriteIndex: 0
-  characterOneWhiteSpriteIndex: 0
-  characterOneTearSpriteIndex: 0
-  characterOneMouthSpriteIndex: 0
-  characterOneGraphicSpriteIndex: 0
-  characterOneEyelibsSpriteIndex: 0
-  characterOnePupilSpriteIndex: 0
-  characterOneEyebrowsSpriteIndex: 0
-  characterOneCheekSpriteIndex: 0
-  activateCharacterTwo: 1
+  activateCharacterTwo: 0
   characterTwoMainSpriteIndex: 0
-  characterTwoHairSpriteIndex: 0
-  characterTwoWhiteSpriteIndex: 0
-  characterTwoTearSpriteIndex: 0
-  characterTwoMouthSpriteIndex: 0
-  characterTwoGraphicSpriteIndex: 0
-  characterTwoEyelibsSpriteIndex: 0
-  characterTwoPupilSpriteIndex: 0
-  characterTwoEyebrowsSpriteIndex: 0
-  characterTwoCheekSpriteIndex: 0

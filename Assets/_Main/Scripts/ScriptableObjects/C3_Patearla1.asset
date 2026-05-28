@@ -18,33 +18,15 @@ MonoBehaviour:
     la universidad, pero a\xFAn m\xE1s sonoro el es golpe de tu pierna contra el
     antebrazo de tu crush, quien en un instante logr\xF3 bloquear tu ataque y ahora
     te observa con una sonrisa, ahora recuerdas porque te enamoraste de ella. "
-  buttonAmount: 1
+  buttonAmount: 2
   buttonNames:
   - Ataca!
+  - Correr
   - 
-  - 
-  nextStates: 090000000000000000000000
+  nextStates: 090000000300000000000000
   changeBackground: 1
   backgroundSpriteIndex: 0
   activateCharacterOne: 1
-  characterOneMainSpriteIndex: 0
-  characterOneHairSpriteIndex: 0
-  characterOneWhiteSpriteIndex: 0
-  characterOneTearSpriteIndex: 0
-  characterOneMouthSpriteIndex: 0
-  characterOneGraphicSpriteIndex: 0
-  characterOneEyelibsSpriteIndex: 0
-  characterOnePupilSpriteIndex: 0
-  characterOneEyebrowsSpriteIndex: 0
-  characterOneCheekSpriteIndex: 0
+  characterOneMainSpriteIndex: 4
   activateCharacterTwo: 1
-  characterTwoMainSpriteIndex: 0
-  characterTwoHairSpriteIndex: 0
-  characterTwoWhiteSpriteIndex: 0
-  characterTwoTearSpriteIndex: 0
-  characterTwoMouthSpriteIndex: 0
-  characterTwoGraphicSpriteIndex: 0
-  characterTwoEyelibsSpriteIndex: 0
-  characterTwoPupilSpriteIndex: 0
-  characterTwoEyebrowsSpriteIndex: 0
-  characterTwoCheekSpriteIndex: 0
+  characterTwoMainSpriteIndex: 7
