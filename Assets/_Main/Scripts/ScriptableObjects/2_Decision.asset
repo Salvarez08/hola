@@ -23,4 +23,5 @@ MonoBehaviour:
   activateCharacterTwo: 0
   nodeName: 
   descriptionText: 
-  nextChoices: []
+  nextChoices:
+  - {fileID: 11400000, guid: 0a9da8def0f96984286af03b3defb3c5, type: 2}

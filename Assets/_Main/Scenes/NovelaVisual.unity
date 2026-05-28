@@ -3253,7 +3253,6 @@ MonoBehaviour:
   dataSequence:
   - {fileID: 11400000, guid: abb03c5b3bca5c34886255a4e41c3626, type: 2}
   - {fileID: 11400000, guid: 230a8ac5aa06c3b40b5e956923542f8d, type: 2}
-  - {fileID: 11400000, guid: 0a9da8def0f96984286af03b3defb3c5, type: 2}
   _currentNode: {fileID: 11400000, guid: abb03c5b3bca5c34886255a4e41c3626, type: 2}
   _paneldialogo: {fileID: 1036624935}
   _textodialogo: {fileID: 153163488}
