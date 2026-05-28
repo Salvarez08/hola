@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a461f028c466488d86d8c22ad3cf2, type: 3}
+  m_Name: 1_Inicio
+  m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
+  sceneText: "Es un hermoso d\xEDa ah\xED afuera, las aves cantan, las flores brotan,
+    tu caminas por el campus de la universidad, pensando en que har\xE1s este fin
+    de semana en vez de los trabajos urgentes."
+  buttonAmount: 1
+  buttonNames:
+  - Siguiente
+  - 
+  - 
+  nextStates: 010000000000000000000000
+  backgroundSprites:
+  - {fileID: -1891107646604127584, guid: 3817b33e3d6ff1f4c989b7c146f60455, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  activateCharacterOne: 0
+  characterOneMainSpriteIndex: 0
+  characterOneHairSpriteIndex: 0
+  characterOneWhiteSpriteIndex: 0
+  characterOneTearSpriteIndex: 0
+  characterOneMouthSpriteIndex: 0
+  characterOneGraphicSpriteIndex: 0
+  characterOneEyelibsSpriteIndex: 0
+  characterOnePupilSpriteIndex: 0
+  characterOneEyebrowsSpriteIndex: 0
+  characterOneCheekSpriteIndex: 0
+  activateCharacterTwo: 1
+  characterTwoMainSpriteIndex: 0
+  characterTwoHairSpriteIndex: 0
+  characterTwoWhiteSpriteIndex: 0
+  characterTwoTearSpriteIndex: 0
+  characterTwoMouthSpriteIndex: 0
+  characterTwoGraphicSpriteIndex: 18
+  characterTwoEyelibsSpriteIndex: 0
+  characterTwoPupilSpriteIndex: 0
+  characterTwoEyebrowsSpriteIndex: 0
+  characterTwoCheekSpriteIndex: 0

@@ -10,20 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c05a461f028c466488d86d8c22ad3cf2, type: 3}
-  m_Name: Inicio
+  m_Name: B3_Besarla1
   m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
-  sceneText: 
+  sceneText: "Haz jugado demasiadas novelas visuales, y piensas que es normal e incluso
+    r\xF3mantico besar a alguien que no conoces. Te peinas con tu mano y abres tu
+    camisa, preparado para tu gran momento, pero antes de que te ganes una denuncia
+    en f\xEDscal\xEDa, tu crush nota tus intenciones y te agarra en una llave de
+    Jiu-Jitsu, lanzandote contra el suelo!"
   buttonAmount: 1
   buttonNames:
+  - Siguiente
   - 
   - 
-  - 
-  nextStates: 000000000000000000000000
+  nextStates: 060000000000000000000000
   backgroundSprites:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  activateCharacterOne: 0
+  activateCharacterOne: 1
   characterOneMainSpriteIndex: 0
   characterOneHairSpriteIndex: 0
   characterOneWhiteSpriteIndex: 0
@@ -34,7 +38,7 @@ MonoBehaviour:
   characterOnePupilSpriteIndex: 0
   characterOneEyebrowsSpriteIndex: 0
   characterOneCheekSpriteIndex: 0
-  activateCharacterTwo: 0
+  activateCharacterTwo: 1
   characterTwoMainSpriteIndex: 0
   characterTwoHairSpriteIndex: 0
   characterTwoWhiteSpriteIndex: 0

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a461f028c466488d86d8c22ad3cf2, type: 3}
+  m_Name: C4_Patearla2
+  m_EditorClassIdentifier: Assembly-CSharp::VisualNovelNodeSO
+  sceneText: "Tratas de continuar tu ataque, pero tu crush contraataca con un rodillazo
+    a tu abdomen. La batalla comienza sin advertencia, pu\xF1os y patadas intercambiandose
+    a velocidad y fuerza tal que los estudiantes que observan son enviados volando
+    varios metros por la onda expansiva. Tras varios minutos de combate, puedes ver
+    que la resistencia de tu crush se est\xE1 agotando, y dej\xF3 una apertura en
+    su defensa, es tu oportunidad! "
+  buttonAmount: 2
+  buttonNames:
+  - Golpe Final!
+  - Besarla?
+  - 
+  nextStates: 0a0000000500000000000000
+  backgroundSprites:
+  - {fileID: -2661979119341840185, guid: 6c4a1ddb53fd56b42812c82855eb7a85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  activateCharacterOne: 1
+  characterOneMainSpriteIndex: 0
+  characterOneHairSpriteIndex: 0
+  characterOneWhiteSpriteIndex: 0
+  characterOneTearSpriteIndex: 0
+  characterOneMouthSpriteIndex: 0
+  characterOneGraphicSpriteIndex: 0
+  characterOneEyelibsSpriteIndex: 0
+  characterOnePupilSpriteIndex: 0
+  characterOneEyebrowsSpriteIndex: 0
+  characterOneCheekSpriteIndex: 0
+  activateCharacterTwo: 1
+  characterTwoMainSpriteIndex: 0
+  characterTwoHairSpriteIndex: 0
+  characterTwoWhiteSpriteIndex: 0
+  characterTwoTearSpriteIndex: 0
+  characterTwoMouthSpriteIndex: 0
+  characterTwoGraphicSpriteIndex: 0
+  characterTwoEyelibsSpriteIndex: 0
+  characterTwoPupilSpriteIndex: 0
+  characterTwoEyebrowsSpriteIndex: 0
+  characterTwoCheekSpriteIndex: 0

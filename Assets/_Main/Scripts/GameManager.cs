@@ -3,11 +3,18 @@ using UnityEngine;
 public enum StoryState
 {
     Inicio,
-    Detonante1,
-    Detonante2,
-    Resolucion,
+    Detonante,
+    Correr1,
+    Correr2,
+    Correr3,
+    Besarla1,
+    Besarla2,
+    Besarla3,
+    Patearla1,
+    Patearla2,
+    Patearla3,
     Final,
-    Conclusion
+
 }
 public class GameManager : MonoBehaviour
 {
@@ -28,18 +35,38 @@ public class GameManager : MonoBehaviour
     private VisualNovelNodeSO _inicioNode;
 
     [SerializeField]
-    private VisualNovelNodeSO _detonante1Node;
-    [SerializeField]
-    private VisualNovelNodeSO _detonante2Node;
+    private VisualNovelNodeSO _detonanteNode;
 
     [SerializeField]
-    private VisualNovelNodeSO _resolucionNode;
+    private VisualNovelNodeSO _correr1Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _correr2Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _correr3Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _besarla1Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _besarla2Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _besarla3Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _patearla1Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _patearla2Node;
+
+    [SerializeField]
+    private VisualNovelNodeSO _patearla3Node;
 
     [SerializeField]
     private VisualNovelNodeSO _finalNode;
 
-    [SerializeField]
-    private VisualNovelNodeSO _conclusionNode;
 
     [Header("Personaje 1")]
     [SerializeField]
@@ -77,25 +104,40 @@ public class GameManager : MonoBehaviour
                 _currentNode = _inicioNode;
                 break;
 
-            case StoryState.Detonante1:
-                _currentNode = _detonante1Node;
+            case StoryState.Detonante:
+                _currentNode = _detonanteNode;
                 break;
-
-            case StoryState.Detonante2:
-                _currentNode = _detonante2Node;
+            case StoryState.Correr1:
+                _currentNode = _correr1Node;
                 break;
-
-            case StoryState.Resolucion:
-                _currentNode = _resolucionNode;
+            case StoryState.Correr2:
+                _currentNode = _correr2Node;
                 break;
-
+            case StoryState.Correr3:
+                _currentNode = _correr3Node;
+                break;
+            case StoryState.Besarla1:
+                _currentNode = _besarla1Node;
+                break;
+            case StoryState.Besarla2:
+                _currentNode = _besarla2Node;
+                break;
+            case StoryState.Besarla3:
+                _currentNode = _besarla3Node;
+                break;
+            case StoryState.Patearla1:
+                _currentNode = _patearla1Node;
+                break;
+            case StoryState.Patearla2:
+                _currentNode = _patearla2Node;
+                break;
+            case StoryState.Patearla3:
+                _currentNode = _patearla3Node;
+                break;
             case StoryState.Final:
                 _currentNode = _finalNode;
                 break;
 
-            case StoryState.Conclusion:
-                _currentNode = _conclusionNode;
-                break;
         }
 
         if (_currentNode == null)

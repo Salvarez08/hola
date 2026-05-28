@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6b5933201ea075f4d8796fb6ce0bc100
+guid: 6c4a1ddb53fd56b42812c82855eb7a85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9139330975122868335
-    second: descarga_0
+      213: -2661979119341840185
+    second: blackflashimpactframemovieclip_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: descarga_0
+      name: blackflashimpactframemovieclip_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 576
+        width: 768
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f684ce0891d65de70800000000000000
-      internalID: 9139330975122868335
+      spriteID: 7c85f104810ce0bd0800000000000000
+      internalID: -2661979119341840185
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      descarga_0: 9139330975122868335
+      blackflashimpactframemovieclip_0: -2661979119341840185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
