@@ -24,10 +24,8 @@ MonoBehaviour:
   - Besarla?
   - 
   nextStates: 0a0000000500000000000000
-  backgroundSprites:
-  - {fileID: -2661979119341840185, guid: 6c4a1ddb53fd56b42812c82855eb7a85, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  changeBackground: 1
+  backgroundSpriteIndex: 0
   activateCharacterOne: 1
   characterOneMainSpriteIndex: 0
   characterOneHairSpriteIndex: 0

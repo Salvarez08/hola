@@ -82,6 +82,12 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private SpriteCharacterController _characterTwoController;
 
+    [Header("Fondo")]
+    [SerializeField]
+    private GameObject _backgroundSpriteGameObject;
+    [SerializeField]
+    private BackgroundSprite _backgroundSprite;
+
     private void Start()
     {
         ChangeState(_currentState);
@@ -178,6 +184,12 @@ public class GameManager : MonoBehaviour
             _characterTwoController.pupilSpriteIndex = _currentNode.characterTwoPupilSpriteIndex;
             _characterTwoController.eyebrowsSpriteIndex = _currentNode.characterTwoEyebrowsSpriteIndex;
             _characterTwoController.cheekSpriteIndex = _currentNode.characterTwoCheekSpriteIndex;
+        }
+        _backgroundSpriteGameObject.SetActive(_currentNode.changeBackground);
+
+        if (_currentNode.changeBackground)
+        {
+            _backgroundSprite.backgroundSpriteIndex = _currentNode.backgroundSpriteIndex;
         }
     }
 }

@@ -21,10 +21,8 @@ MonoBehaviour:
   - 
   - 
   nextStates: 000000000000000000000000
-  backgroundSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  changeBackground: 1
+  backgroundSpriteIndex: 5
   activateCharacterOne: 0
   characterOneMainSpriteIndex: 0
   characterOneHairSpriteIndex: 0

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ac063ffa7d490f429c5e42daf9e8e24
+guid: 3817b33e3d6ff1f4c989b7c146f60455
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7059514937912015953
-    second: Captura de pantalla 2026-05-28 150915_0
+      213: -6451674767170362949
+    second: Fondo Hope's Peak_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-05-28 150915_0
+      name: Fondo Hope's Peak_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 750
-        height: 557
+        width: 800
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15c3fc0ee6f68f160800000000000000
-      internalID: 7059514937912015953
+      spriteID: bb1a5705bfb0776a0800000000000000
+      internalID: -6451674767170362949
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-05-28 150915_0: 7059514937912015953
+      Fondo Hope's Peak_0: -6451674767170362949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

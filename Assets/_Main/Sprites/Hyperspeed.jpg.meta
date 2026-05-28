@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c2021f6cfbb8d54a8f74a9b9d011432
+guid: e6e4e4358ce8ce4489a253d37b370d1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1672148621188977945
-    second: Captura de pantalla 2026-05-28 151046_0
+      213: 3151170360254378506
+    second: Hyperspeed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-05-28 151046_0
+      name: Hyperspeed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1033
-        height: 508
+        width: 800
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ea2f5e30b55bc8e0800000000000000
-      internalID: -1672148621188977945
+      spriteID: a02b3bd3fb43bbb20800000000000000
+      internalID: 3151170360254378506
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-05-28 151046_0: -1672148621188977945
+      Hyperspeed_0: 3151170360254378506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

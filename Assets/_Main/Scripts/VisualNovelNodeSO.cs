@@ -20,7 +20,9 @@ public class VisualNovelNodeSO : ScriptableObject
     public StoryState[] nextStates = new StoryState[3];
 
     [Header("Background")]
-    public Sprite[] backgroundSprites = new Sprite[3];
+    public bool changeBackground;
+    public int backgroundSpriteIndex;
+
 
     [Header("Personaje 1")]
     public bool activateCharacterOne;

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3817b33e3d6ff1f4c989b7c146f60455
+guid: f8fcc092e5c03e8448140f8f153ca7ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1891107646604127584
-    second: descarga (1)_0
+      213: 5778632165061775173
+    second: Yamcha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: descarga (1)_0
+      name: Yamcha_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 576
+        width: 800
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a2d22c6d9f61c5e0800000000000000
-      internalID: -1891107646604127584
+      spriteID: 54f472e6653d13050800000000000000
+      internalID: 5778632165061775173
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      descarga (1)_0: -1891107646604127584
+      Yamcha_0: 5778632165061775173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -21,10 +21,8 @@ MonoBehaviour:
   - 
   - 
   nextStates: 010000000000000000000000
-  backgroundSprites:
-  - {fileID: -1891107646604127584, guid: 3817b33e3d6ff1f4c989b7c146f60455, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  changeBackground: 1
+  backgroundSpriteIndex: 0
   activateCharacterOne: 0
   characterOneMainSpriteIndex: 0
   characterOneHairSpriteIndex: 0
